@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hosting.com - Reliable Web Hosting</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f9f9fb; }
+    header { background: #0d0d2b; color: white; padding: 20px 30px; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin-left: 20px; text-decoration: none; font-weight: 500; }
+    .hero { background: #1e1e3f; color: white; padding: 80px 30px; text-align: center; }
+    .hero h1 { font-size: 40px; margin-bottom: 15px; }
+    .hero p { font-size: 18px; color: #ddd; margin-bottom: 25px; }
+    .btn { background: #ff4d4f; color: white; padding: 12px 25px; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; font-weight: bold; }
+    .plans { display: flex; justify-content: center; gap: 30px; padding: 50px 20px; flex-wrap: wrap; }
+    .plan { background: white; border-radius: 10px; padding: 25px; width: 280px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+    .plan h2 { color: #0d0d2b; font-size: 22px; margin-bottom: 10px; }
+    .plan ul { list-style: none; padding: 0; color: #444; font-size: 15px; text-align: left; margin-top: 15px; }
+    .plan ul li { padding: 8px 0; border-bottom: 1px solid #eee; }
+    .price { font-size: 20px; margin: 20px 0; color: #ff4d4f; font-weight: bold; }
+    .features { background: #fff; padding: 50px 30px; text-align: center; }
+    .features h2 { font-size: 28px; margin-bottom: 30px; color: #333; }
+    .features-grid { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+    .feature { width: 250px; padding: 20px; border: 1px solid #ddd; border-radius: 10px; background: #fafafa; }
+    .feature h3 { color: #0d0d2b; margin-bottom: 10px; }
+    .feature p { color: #555; font-size: 14px; }
+    footer { background: #0d0d2b; color: white; padding: 25px; text-align: center; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Hosting.com</strong></div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Hosting</a>
+      <a href="#">Domains</a>
+      <a href="#">Support</a>
+    </nav>
+  </header>  <section class="hero">
+    <h1>Fast & Secure Web Hosting</h1>
+    <p>Launch your website with Hosting.com for just ₹59/month</p>
+    <a class="btn" href="#plans">Get Started</a>
+  </section>  <section class="plans" id="plans">
+    <div class="plan">
+      <h2>Starter Plan</h2>
+      <ul>
+        <li>30 Website</li>
+        <li>100 GB SSD</li>
+        <li>Free SSL & Email</li>
+      </ul>
+      <div class="price">₹1/month</div>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+    <div class="plan">
+      <h2>Pro Plan</h2>
+      <ul>
+        <li>200 Websites</li>
+        <li>200 GB SSD</li>
+        <li>Free Domain & SSL</li>
+      </ul>
+      <div class="price">₹2/month</div>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+    <div class="plan">
+      <h2>Business Plan</h2>
+      <ul>
+        <li>Unlimited Websites</li>
+        <li>200 GB SSD</li>
+        <li>Priority Support</li>
+      </ul>
+      <div class="price">₹3/month</div>
+      <a class="btn" href="#">Buy Now</a>
+    </div>
+  </section>  <section class="features">
+    <h2>Why Choose Hosting.com?</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>99.9% Uptime</h3>
+        <p>Your site stays online always</p>
+      </div>
+      <div class="feature">
+        <h3>Free SSL</h3>
+        <p>Secure your site with HTTPS</p>
+      </div>
+      <div class="feature">
+        <h3>1-Click Installer</h3>
+        <p>Install WordPress in seconds</p>
+      </div>
+    </div>
+  </section>  <footer>
+    &copy; 2025 Hosting.com. All rights reserved.
+  </footer>
+</body>
+</html>
